@@ -1,4 +1,4 @@
-create or replace table app_import(
+create table app_import(
     id bigint auto_increment
     primary key,
     app_id bigint null comment '目标应用id',
